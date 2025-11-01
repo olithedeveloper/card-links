@@ -19,6 +19,7 @@
     --fonte-destaque: 'Inter';
 }
 
+
 /**********************************/
 /* RESETE
 /**********************************/
@@ -28,6 +29,21 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+}
+
+
+/**********************************/
+/* LINKS GERAIS
+/**********************************/
+
+a {
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #71AE3F;
 }
 
 
@@ -111,6 +127,7 @@ main a {
 main a:hover {
     color: var(--cor-secundaria);
     background-color: #71AE3F;
+    text-decoration: none;
 }
 
 
